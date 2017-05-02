@@ -1,0 +1,24 @@
+========= Goal ===========
+// Hockey-style game.....
+
+========= Analysis =======
+// We have three BUTTONS acting on five COUNTERS
+  // We'll again attempt to limit our scope to just those three BUTTONS
+  // We'll need to bring in some kind of random number generator to decide whether each shot is successful or not.
+
+
+========== Plan =============
+// Reset Button
+  -increases the Reset Counter by one
+  AND
+  -resets the four other counters to zero
+
+// Team 1 Shoot Button
+  - increases Team 1's Shot Counter by one
+  - IF the shot is successful, it increases Team 1's Hit Counter by one
+  - Plays a sound effect
+
+// Team 2 Shoot Button
+  - increases Team 2's Shot Counter by one
+  - IF the shot is successful, it increases Team 2's Hit Counter by one
+  - Plays a sound effect

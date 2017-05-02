@@ -1,0 +1,26 @@
+====== Goal ========
+//  Make a simple counter with increment and decrement buttons.
+  // The counter should never go below zero, displaying negative numbers.
+  // The counter should turn red when it hits 10
+  // And stay red until it falls back below 10
+
+===== Analysis =====
+// We have three objects on our page, two buttons and one counter.
+
+// We want the buttons to act upon and update the counter in response to user input (mouse clicks).  The counter is passive, and will only respond to user input indirectly (through the  buttons).
+
+// Thus, the structure of our JavaScript file need only reflect the behaviors of our two buttons.
+
+======= Plan =========
+
+  // Button 1 - the INCREMENT button
+    // when clicked, it increases the 'COUNTER' element by one
+
+  // Button 2 - the DECREMENT button
+    // when clicked, it decreases the 'COUNTER' element by one...........
+    // UNLESS the COUNTER is at zero
+
+  // Color changing should be two separate events:
+     1) FROM Black TO Red
+     2) FROM Red TO Black
+    // We'll figure out where to put them later, since we're  limiting our scope to the behaviors of our two BUTTONS only.

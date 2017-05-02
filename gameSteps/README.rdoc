@@ -1,0 +1,2 @@
+Teaching exercise for basic JavaScript concepts.
+The creation of a very simple game involving counters broken out into conceptual steps.
